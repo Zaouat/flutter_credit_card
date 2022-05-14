@@ -212,7 +212,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                   child: Expanded(
                     child: Container(
                          //padding: const EdgeInsets.symmetric(vertical: 8.0),
-                margin: const EdgeInsets.only(top: 16,),
+                      margin: const EdgeInsets.only(top: 16,right:10,),
                       child: TextFormField(
                         controller: _expiryDateController,
                         cursorColor: widget.cursorColor ?? themeColor,
@@ -253,7 +253,7 @@ class _CreditCardFormState extends State<CreditCardForm> {
                 Expanded(
                   child: Container(
                          //padding: const EdgeInsets.symmetric(vertical: 8.0),
-                margin: const EdgeInsets.only(top: 16,),
+                margin: const EdgeInsets.only(top: 16,left:10,),
                     child: TextFormField(
                       obscureText: widget.obscureCvv,
                       focusNode: cvvFocusNode,
